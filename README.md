@@ -1,5 +1,9 @@
 # Shopify Order Automation using Pipedream
 
+The Pipedream workflow used for this assignment can be accessed using the link below:
+
+https://pipedream.com/new?h=tch_p7fv0n
+
 ## Overview
 
 This project implements an automated order-processing workflow using Pipedream.
@@ -25,28 +29,12 @@ If any condition fails, the workflow terminates without sending emails.
 
 ---
 
-## Workflow Architecture
+## Workflow 
 
-```text
-Webhook Trigger
-       │
-       ▼
-Validate Order (Python)
-       │
-       ▼
-Check Order Conditions
-       │
- ┌─────┴─────┐
- │           │
- ▼           ▼
-Eligible    Stop Workflow
- │
- ▼
-Send Welcome Email
- │
- ▼
-Delay Workflow (5 Minutes)
- │
- ▼
-Send Discount Email
-```
+<img width="605" height="660" alt="image" src="https://github.com/user-attachments/assets/74a62661-8e1e-4120-a053-4e7aa7215de3" />
+
+## Email Notification
+
+<img width="1427" height="97" alt="image" src="https://github.com/user-attachments/assets/1d633260-bd5a-44be-9001-982c4a7e3547" />
+
+
