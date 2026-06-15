@@ -29,6 +29,18 @@ If any condition fails, the workflow terminates without sending emails.
 
 ---
 
+## Sample Webhook Payload
+```
+{
+  "tags": "MakeOrder",
+  "current_total_price": 3000,
+  "customer": {
+    "email": "customer@example.com",
+    "tags": "ColdCustomer"
+  }
+}
+```
+
 ## Workflow 
 
 <img width="605" height="660" alt="image" src="https://github.com/user-attachments/assets/74a62661-8e1e-4120-a053-4e7aa7215de3" />
